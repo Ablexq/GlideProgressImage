@@ -13,7 +13,7 @@ allprojects {
     }
 }
 ```
-如果你使用的是android support库，那么请添加下述依赖：
+添加下述依赖：
 ```
 dependencies {
 	implementation 'com.github.Ablexq:GlideProgressImage:v1.0.1'
