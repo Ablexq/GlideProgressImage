@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name="com.xq.myglideprogress.MainActivity">
+        <activity android:name="com.xq.demo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

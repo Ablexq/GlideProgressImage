@@ -1,4 +1,4 @@
-package com.xq.myglideprogress;
+package com.xq.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.xq.myglideprogress.GlideImageView;
+import com.xq.myglideprogress.GlidePhotoView;
+import com.xq.myglideprogress.R;
 import com.xq.myglideprogress.progress.CircleProgressView;
 import com.xq.myglideprogress.progress.OnProgressListener;
 import com.github.chrisbanes.photoview.OnOutsidePhotoTapListener;

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#00ff00"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.xq.demo.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,13 +16,13 @@
         android:layout_marginBottom="10dp"
         android:layout_weight="1">
 
-        <com.xq.myglideprogress.progressglide.GlideImageView
+        <com.xq.myglideprogress.GlideImageView
             android:id="@+id/image1"
             android:layout_width="240dp"
             android:layout_centerInParent="true"
             android:layout_height="135dp" />
 
-        <com.xq.myglideprogress.progressglide.progress.CircleProgressView
+        <com.xq.myglideprogress.progress.CircleProgressView
             android:id="@+id/progressView1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -54,13 +54,13 @@
         android:layout_marginBottom="10dp"
         android:layout_weight="1">
 
-        <com.xq.myglideprogress.progressglide.GlidePhotoView
+        <com.xq.myglideprogress.GlidePhotoView
             android:id="@+id/image2"
             android:layout_width="240dp"
             android:layout_height="135dp"
             android:layout_centerInParent="true" />
 
-        <com.xq.myglideprogress.progressglide.progress.CircleProgressView
+        <com.xq.myglideprogress.progress.CircleProgressView
             android:id="@+id/progressView2"
             android:layout_width="50dp"
             android:layout_height="50dp"
