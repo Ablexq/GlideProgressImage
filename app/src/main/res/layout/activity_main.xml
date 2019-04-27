@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+
+        <com.example.myglideprogress.progressglide.GlideImageView
+            android:id="@+id/image1"
+            android:layout_width="240dp"
+            android:layout_centerInParent="true"
+            android:layout_height="135dp" />
+
+        <com.example.myglideprogress.progressglide.progress.CircleProgressView
+            android:id="@+id/progressView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:progress="0"
+            android:visibility="gone"
+            app:cpv_innerPadding="2dp"
+            app:cpv_outerColor="@color/transparent90_white"
+            app:cpv_outerSize="1dp"
+            app:cpv_progressNormalColor="@color/transparent"
+            app:cpv_progressReachColor="@color/transparent90_white"
+            app:cpv_progressStyle="FillInnerArc" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="小米9 vs 华为p30"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+
+        <com.example.myglideprogress.progressglide.GlidePhotoView
+            android:id="@+id/image2"
+            android:layout_width="240dp"
+            android:layout_height="135dp"
+            android:layout_centerInParent="true" />
+
+        <com.example.myglideprogress.progressglide.progress.CircleProgressView
+            android:id="@+id/progressView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:progress="0"
+            android:visibility="gone"
+            app:cpv_innerPadding="2dp"
+            app:cpv_outerColor="@color/transparent90_white"
+            app:cpv_outerSize="1dp"
+            app:cpv_progressNormalColor="@color/transparent"
+            app:cpv_progressReachColor="@color/transparent90_white"
+            app:cpv_progressStyle="FillInnerArc" />
+    </RelativeLayout>
+
+</LinearLayout>
